@@ -1,12 +1,20 @@
 body {
-    font-family: Verdana;
+    font-family: Verdana, sans-serif;
     background-color: black;
+    text-align: center;
+    color: white;
 }
 
 h1 {
     font-weight: normal;
     font-size: 50px;
-    color: white;
+    
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+
 }
 
 a {
@@ -15,6 +23,17 @@ a {
     text-decoration: underline;
 }
 
-header {
-    text-align: center;
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+p {
+    color: gray;
+    font-size: 21px;
+    display: block;
+}
+
+.footer {
+    text-align: right;
 }
